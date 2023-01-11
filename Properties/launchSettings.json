@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:63486",
+      "applicationUrl": "https://webscrapper-production.up.railway.app/",
       "sslPort": 44316
     }
   },
@@ -14,7 +14,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7218;http://localhost:5180",
+      "applicationUrl": "https://webscrapper-production.up.railway.app/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
