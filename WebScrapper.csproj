@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-	  <InvariantGlobalization>true</InvariantGlobalization>
   </ItemGroup>
 
 </Project>
