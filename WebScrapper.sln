@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper", "WebScrapper.csproj", "{1A10228D-C318-4A38-AD05-BE4D32FE5A7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper", "WebScrapper.csproj", "{55AC2900-239C-49E1-9CE5-9B2F9636AB01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A10228D-C318-4A38-AD05-BE4D32FE5A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A10228D-C318-4A38-AD05-BE4D32FE5A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A10228D-C318-4A38-AD05-BE4D32FE5A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A10228D-C318-4A38-AD05-BE4D32FE5A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B37A1DB9-5876-4389-9153-746F4B462148}
+		SolutionGuid = {EEA64484-2A3D-4F66-A917-AF9FEF0EBDA6}
 	EndGlobalSection
 EndGlobal

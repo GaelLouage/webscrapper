@@ -6,6 +6,6 @@ namespace WebScrapper.Controllers
     [Route("api/[controller]")]
     public class WebScrapper : ControllerBase
     {
-        
+
     }
 }

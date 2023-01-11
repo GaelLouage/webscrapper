@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "/oAwsGM0r8CdnH8jCw+1TGr8plW5rqd4bWzu60Y2IUkX83DUlqrUsxODRnTcVMMh1zrBszAnoVgjLdPzzFwpYQ==",
+  "dgSpecHash": "M8oWrcpTHBSZFOntBIayncjcKsqggouB4TQOxMgq+lERxCGqQmmgwgUu+w4pXjGWF95lqkKpKakazF2WFzS7Yg==",
   "success": true,
   "projectFilePath": "C:\\Users\\louagga\\source\\repos\\WebScrapper\\WebScrapper.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\louagga\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\louagga\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
