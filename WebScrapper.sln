@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper", "WebScrapper.csproj", "{55AC2900-239C-49E1-9CE5-9B2F9636AB01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper", "WebScrapper.csproj", "{55AC2900-239C-49E1-9CE5-9B2F9636AB01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructuur", "..\Infrastructuur\Infrastructuur.csproj", "{044E7776-B281-4B06-98A7-B0D9CDE6E9E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55AC2900-239C-49E1-9CE5-9B2F9636AB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044E7776-B281-4B06-98A7-B0D9CDE6E9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044E7776-B281-4B06-98A7-B0D9CDE6E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044E7776-B281-4B06-98A7-B0D9CDE6E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044E7776-B281-4B06-98A7-B0D9CDE6E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

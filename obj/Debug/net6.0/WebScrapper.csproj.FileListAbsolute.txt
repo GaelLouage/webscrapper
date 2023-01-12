@@ -30,3 +30,6 @@ C:\Users\louagga\source\repos\WebScrapper\obj\Debug\net6.0\refint\WebScrapper.dl
 C:\Users\louagga\source\repos\WebScrapper\obj\Debug\net6.0\WebScrapper.pdb
 C:\Users\louagga\source\repos\WebScrapper\obj\Debug\net6.0\WebScrapper.genruntimeconfig.cache
 C:\Users\louagga\source\repos\WebScrapper\obj\Debug\net6.0\ref\WebScrapper.dll
+C:\Users\louagga\source\repos\WebScrapper\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\louagga\source\repos\WebScrapper\bin\Debug\net6.0\Infrastructuur.dll
+C:\Users\louagga\source\repos\WebScrapper\bin\Debug\net6.0\Infrastructuur.pdb
