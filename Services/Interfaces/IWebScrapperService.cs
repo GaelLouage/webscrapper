@@ -10,8 +10,12 @@ namespace WebScrapper.Services.Interfaces
 {
     public interface IWebScrapperService
     {
-        Task<ResultDto> GetDataByTagsAsync(WebsitToScrap website);
-        Task<ResultDto> DownloadImagesAsync(WebsitToScrap website);
-        Task<(ResultDto resultD, byte[] byteArray)> GetImageById(int id, WebsitToScrap website);
+        Task<ResultDto> GetDataByTagsAsync(WebSiteToScrap website);
+        Task<ResultDto> DownloadImagesAsync(WebSiteToScrap website);
+        Task<(ResultDto restultDto, Dictionary<int, string> dataDictionary)> GetImagesInBase64FormatAsync(WebSiteToScrap website);
+        Task<(ResultDto resultD, byte[] byteArray)> GetImageById(int id, WebSiteToScrap website);
+
+        Task<ResultDto> GetDataFromUrlAsync(WebSiteToScrap website);
+        Task<ResultDto> GetDataByAllTagsAsync(WebsiteWithMultipleTags website);
     }
 }

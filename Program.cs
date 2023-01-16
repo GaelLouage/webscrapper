@@ -1,4 +1,5 @@
 using System.Net;
+using WebScrapper.Bootstrappers;
 using WebScrapper.Services.Classes;
 using WebScrapper.Services.Interfaces;
 
@@ -8,9 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IWebScrapperService, WebScrapperService>();
+builder.Services.AddServices();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
