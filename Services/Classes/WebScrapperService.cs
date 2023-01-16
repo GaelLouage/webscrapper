@@ -81,7 +81,7 @@ namespace WebScrapper.Services.Classes
             };
             //get all the data from the url
             var dataList = new List<Dictionary<string, string>>();
-            dataList = await GetallDatatFromUrl(website, result, tagNames, dataList);
+            dataList = await GetAllDataFromUrl(website, result, tagNames, dataList);
 
             if (result.Data is null)
             {
@@ -91,7 +91,7 @@ namespace WebScrapper.Services.Classes
             return result;
         }
 
-        private static async Task<List<Dictionary<string, string>>> GetallDatatFromUrl(WebSiteToScrap website, ResultDto result, List<string> tagNames, List<Dictionary<string, string>> dataList)
+        private static async Task<List<Dictionary<string, string>>> GetAllDataFromUrl(WebSiteToScrap website, ResultDto result, List<string> tagNames, List<Dictionary<string, string>> dataList)
         {
             // Use async/await and LINQ to make the code more efficient 
             var tasks = tagNames.Select(async tag =>
